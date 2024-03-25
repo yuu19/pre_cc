@@ -1,5 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
+
+/* アセンブラを生成する*/
+
 /*argcはコマンドライン引数の数,argvはコマンドライン引数を表す*/
 int main(int argc, char **argv) {
   if(argc != 2) {
